@@ -1,0 +1,30 @@
+.topnav {
+    overflow: hidden;
+    background-color: bisque;
+    font-family: Montserrat;
+    font-weight: bold;
+}
+
+.topnav a {
+    float:left;
+    display:grid;
+    color: #262142;
+    text-align: center;
+    padding: 10px 60px;
+    text-decoration:solid;
+    font-size: 19px;
+}
+
+.topnav a:hover {
+    background-color: rgb(3, 1, 1);
+    color: rgb(243, 239, 239);
+}
+
+.topnav a.active {
+    background-color: #3a4d11;
+    color: rgb(0, 0, 0);
+}
+
+.topnav .icon {
+    display:none;
+}

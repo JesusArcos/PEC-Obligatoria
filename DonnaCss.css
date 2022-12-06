@@ -1,0 +1,317 @@
+  body { 
+    background-color: #090712 ;
+    width:auto;
+  }
+
+  @font-face {
+      font-family: Montserrat;
+      src: url(Fuentes/Montserrat-VariableFont_wght.ttf);
+  }
+
+  @font-face {
+    font-family: Nothing;
+    src: url(Fuentes/NothingYouCouldDo-Regular.ttf);
+  }
+
+  @font-face {
+    font-family: Butler;
+    src: url(Fuentes/Butler/Butler_Regular.otf);
+  }
+    
+    header {
+      background-image: url("Imágenes/Donna Strickland (1).png");
+      background-color: #262142;
+      background-repeat:no-repeat;
+      width: auto;
+      padding: 30px 30px 5px 20px;
+      height: 220px;
+      font-family: Nothing;
+      font-size: 30px;
+      color:bisque;
+      text-align:right;
+      line-height: 10px;
+      opacity: 0.9;
+    }
+
+    .p1 {
+    text-align:right ;
+    word-spacing: 5px;
+    font-size: 15px;
+    }
+
+    #contenedor {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Montserrat;
+
+    }
+
+    .hero-image {
+    background-image: url("Imágenes/Donna1.jpg");
+    width: 450px;
+    height: 355px;
+    padding: 40px;
+    margin: 30px 30px 0px 50px;
+    margin-left: 100px;
+    background-position-x: left;
+    background-repeat: no-repeat;
+    background-size:contain;
+    position: relative;
+    opacity: 1;
+    }
+
+    .EDUCACIÓN {
+    text-align: center;
+    line-height: 30px;
+    padding: 25px;
+    color: #ddd;
+    }
+
+    h1 {
+      font-size: 25px;
+      font-weight: bold;
+      color: bisque;
+    }
+
+    .linea {
+      border-top: 3px solid bisque;
+      height: 2px;
+      max-width: 50%;
+      padding: 20px;
+      margin: 70px auto 0 auto;
+      }
+
+    #contenedor2 {
+      position: relative;
+      display: flex;
+      justify-content: space-around;
+    }
+
+    .hero-image2 {
+      background-color: #262142;
+      background-repeat: no-repeat;
+      background-position: center;
+      margin: 10px;
+      width:85%;
+      height: 40px;
+      padding: 40px;
+      margin-top: 30px;
+      opacity: 0.7; 
+    }
+
+    .cita {
+      position: absolute;
+      text-align: center;
+      font-family: Nothing;
+      font-size: 20px;
+      padding: 30px;
+      color: blanchedalmond;
+    }
+
+    #contenedor3 {
+      display: flex;
+      justify-content:center;
+      align-items: center;
+      padding: 40px;
+    }
+
+    .CARRERA {
+      text-align: center;
+      line-height: 35px;
+      padding: 20px; 
+      font-family: Montserrat;
+      font-size: 13px;
+      color: white;
+    }
+
+    .hero-image3 {
+      background-image: url("Imágenes/Donna3.png");
+      margin-top: 65px;
+      width: 550px;
+      height: 550px;
+      padding: 10px;
+      background-repeat: no-repeat;
+      background-size:auto;
+      position:relative;
+      opacity: 0.9;
+    }
+
+    .Tabla {
+      display: flex;
+      justify-content:center;
+      width: 100%;
+      height: 250px;
+    }
+    #PREMIOS {
+      font-family: Monserrat, sans-serif;
+      border-collapse: collapse;
+      width: 50%;
+    }
+    
+    #PREMIOS td, #PREMIOS th {
+      border: 1px solid #262142;
+      padding: 5px;
+    }
+  
+    #PREMIOS tbody {background-color: #e4e4e4;}
+    
+    #PREMIOS tr:hover {background-color: white;}
+    
+    #PREMIOS th{
+      padding-top: 12px;
+      padding-bottom: 12px;
+      text-align: center;
+      background-color: bisque;
+    }
+    
+    #PUBLICACIONES {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap:wrap;
+      font-family: Monserrat;
+      background-color:#1d1b2a;
+      margin-top: 20px;
+      
+    }
+    
+    .card {
+      background-color:azure;
+      box-shadow: 0 4px 8px 0 rgba(185, 163, 18, 0.904);
+      transition: 0.3s;
+      padding: 30px;
+    }
+
+    .card:hover {
+      box-shadow: 0 8px 16px 0 rgba(244, 244, 244, 0.785);
+    }
+
+    .flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 400px;
+    perspective: 1000px;
+    margin: 35px;
+    font-family: Butler;
+    padding: 20px;
+    }
+  
+    .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    }
+  
+    .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+    }
+  
+    .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 300px;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    }
+  
+    .flip-card-front {
+    background-color: #bbb;
+    color: black;
+    }
+  
+    .flip-card-back {
+    background-color: bisque;
+    color: black;
+    transform: rotateY(180deg);
+    }
+
+    footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 35px;
+    }
+
+    .video {
+      text-align: center;
+    }
+    .video-responsive {
+      position: relative;
+      padding-bottom: 56.25%;
+      padding-top: 30px;
+      height: 0;
+      overflow: hidden;
+      }
+      
+    .video-responsive iframe,
+    .video-responsive object,
+    .video-responsive embed {
+      position:absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+      
+    .final {
+    width: 540px;
+    height: 160px;
+    background-color: gray;
+    text-align: center;
+    margin: 20px auto 20px auto;
+    line-height: 17px;
+    padding: 10px; 
+    font-family:serif;
+    font-size: 13px;
+    color: bisque;
+    }
+
+  
+    @media screen and (max-width: 650px) {
+
+    header {
+    font-size: 17px;
+    color:whitesmoke;
+    font-weight: bold;
+    }
+    .hero-image {
+    width: 200px;
+    height: 180px;
+    margin-right: 80px;
+    }
+    .hero-image3{
+    width: 300px;
+    height: 300px;
+    }
+    #PUBLICACIONES {
+      padding: 0px;;
+  }
+    .final {
+      width: 320px;
+    }
+    }
+  
+    @media screen and (max-width: 900px) {
+
+      #contenedor{
+        display: flex;
+        flex-direction: column;
+        text-align: center;  
+      }
+      .cita {
+        font-size: 13px;
+      }
+      #contenedor3{
+        display: flex;
+        flex-direction: column;
+      }
+      .Tabla {
+        font-size: 11px;
+      }  
+  }
+  
